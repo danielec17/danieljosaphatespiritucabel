@@ -10,3 +10,6 @@ CREATE TABLE datos (
     telefono VARCHAR(15),
     correo VARCHAR(100) NOT NULL
 );
+INSERT INTO datos (nombre, apellido, edad, telefono, correo)
+VALUES 
+('Daniel', 'Josaphat', 24, '+56912345678', 'daniel@example.com'),
